@@ -1,3 +1,8 @@
+#drag-region {
+  -webkit-user-select: none;
+  -webkit-app-region: drag;
+}
+
 #clock-container {
   display: flex;
   justify-content: center;
