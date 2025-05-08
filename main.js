@@ -15,3 +15,5 @@ const createWindow = () => {
 app.whenReady().then(() => {
   createWindow();
 });
+
+app.setLoginItemSettings({ openAtLogin: true });
