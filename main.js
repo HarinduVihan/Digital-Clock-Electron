@@ -6,6 +6,7 @@ const createWindow = () => {
     height: 150,
     frame: false,
     transparent: true,
+    // backgroundMaterial: "acrylic",
   });
 
   win.loadFile("index.html");
