@@ -15,7 +15,7 @@ Electron is a framework for building desktop applications using JavaScript, HTML
 
 ## How to install 
 
-You can install this app following two methods.
+Either
 
 1. You can, simply download the setup.exe from the releases. 
 
