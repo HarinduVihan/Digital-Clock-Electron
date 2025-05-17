@@ -25,16 +25,20 @@ or
    
     - npm init
     - npm install electron --save-dev
+  
+- https://www.electronjs.org/docs/latest/tutorial/tutorial-first-app
 
    to create the app files and the executeble file. 
 
     - npm install --save-dev @electron-forge/cli
     - npx electron-forge import
     - npm run make
+ 
+- https://www.electronjs.org/docs/latest/tutorial/tutorial-packaging
 
 After the script runs, you should see an "out" folder containing both the distributable and a folder containing the packaged application code.
 
-- https://www.electronjs.org/docs/latest/tutorial/tutorial-packaging
+
 ## License
 
 This project is licensed under the [MIT](https://choosealicense.com/licenses/mit/) License.
