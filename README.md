@@ -21,8 +21,13 @@ Either
 
 or
 
-2. You can, clone this repository. Type this commands in your terminal to create the app files and the executeble file. 
-    
+2. You can, clone this repository. Type this commands in your terminal to initialize the npm package
+   
+    - npm init
+    - npm install electron --save-dev
+
+   to create the app files and the executeble file. 
+
     - npm install --save-dev @electron-forge/cli
     - npx electron-forge import
     - npm run make
