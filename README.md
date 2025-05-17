@@ -3,6 +3,8 @@
 
 This is a simple widget that can be put in your desktop designed as a Digital Clock.
 
+![image](https://github.com/user-attachments/assets/6ee61c9a-d3c0-4019-a6e6-11bf5b8ee792)
+
 
 # What is Electron?
 
