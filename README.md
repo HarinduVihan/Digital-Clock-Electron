@@ -36,7 +36,7 @@ or
 
   or
 
-  2.2 to create more flexible insatller.
+  2.2. to create more flexible setup installer.
 
         npm i --save-dev electron-builder
         npm run build
