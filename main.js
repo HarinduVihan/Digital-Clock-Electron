@@ -11,6 +11,9 @@ const createWindow = () => {
     transparent: true,
     // backgroundMaterial: "acrylic",
     skipTaskbar: true,
+    webPreferences: {
+      devTools: false,
+    },
   });
 
   win.loadFile("index.html");
