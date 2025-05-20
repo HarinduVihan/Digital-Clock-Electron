@@ -18,7 +18,7 @@ const createWindow = () => {
 
 app.whenReady().then(() => {
   createWindow();
-  tray = new Tray("./Gold Luxury Initial Logo (1).png");
+  tray = new Tray("./favicon.ico");
   const contextMenu = Menu.buildFromTemplate([
     {
       label: "Show Digital Clock",
