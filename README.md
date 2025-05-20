@@ -20,7 +20,7 @@ or
 
 2. You can, clone this repository. Type this commands in your terminal to initialize the npm package
 
-   - npm install electron --save-dev
+         - npm install electron --save-dev
 
 - https://www.electronjs.org/docs/latest/tutorial/tutorial-first-app
 
