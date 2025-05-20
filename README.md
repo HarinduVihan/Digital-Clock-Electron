@@ -20,15 +20,15 @@ or
 
 2. You can, clone this repository. Type this commands in your terminal to initialize the npm package
 
-         - npm install electron --save-dev
+         npm install electron --save-dev
 
 - https://www.electronjs.org/docs/latest/tutorial/tutorial-first-app
 
   2.1. to create the app files and the executeble file.
 
-        - npm install --save-dev @electron-forge/cli
-        - npx electron-forge import
-        - npm run make
+        npm install --save-dev @electron-forge/cli
+        npx electron-forge import
+        npm run make
 
   - https://www.electronjs.org/docs/latest/tutorial/tutorial-packaging
 
@@ -38,8 +38,8 @@ or
 
   2.2 to create more flexible insatller.
 
-        - npm i --save-dev electron-builder
-        - npm run build
+        npm i --save-dev electron-builder
+        npm run build
 
   After the script runs, you should see an "dist" folder containing both the distributable and a folder containing the packaged application code.
 
