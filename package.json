@@ -8,7 +8,25 @@
     "start": "electron-forge start",
     "test": "echo \"Error: no test specified\" && exit 1",
     "package": "electron-forge package",
-    "make": "electron-forge make"
+    "make": "electron-forge make",
+    "build": "electron-builder"
+  },
+  "build": {
+    "appId": "Digital Clock",
+    "win": {
+      "target": [
+        "nsis"
+      ],
+      "icon": "android-chrome-512x512.ico"
+    },
+    "nsis": {
+      "oneClick": false,
+      "installerIcon": "android-chrome-512x512.ico",
+      "uninstallerIcon": "android-chrome-512x512.ico",
+      "uninstallDisplayName": "Digital Clock uninstaller",
+      "license": "LICENSE",
+      "allowToChangeInstallationDirectory": true
+    }
   },
   "author": "Harindu Vihan",
   "license": "MIT",
@@ -21,7 +39,8 @@
     "@electron-forge/plugin-auto-unpack-natives": "^7.8.1",
     "@electron-forge/plugin-fuses": "^7.8.1",
     "@electron/fuses": "^1.8.0",
-    "electron": "^36.2.1"
+    "electron": "^36.2.1",
+    "electron-builder": "^26.0.12"
   },
   "dependencies": {
     "electron-squirrel-startup": "^1.0.1"
